@@ -1,0 +1,61 @@
+#game div {
+  border: solid 1px black;
+  width: 150px;
+  height: 225px;
+  margin: 10px;
+  border-radius: 20px;
+}
+#game div.unselected:hover {
+  transition: box-shadow 100ms;
+  box-shadow: 5px 5px 5px black;
+}
+.selected {
+  box-shadow: 5px 5px 5px black;
+}
+#game {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+body {
+  background-color: white;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+h2 {
+  text-align: center;
+  font-size: 25px;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.orange {
+  background-color: orange;
+}
+.purple {
+  background-color: purple;
+}
+.unselected {
+  background-color: white;
+  
+}
+body {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+button {
+  display: block;
+  margin: auto;
+  font-size: 30px;
+}
